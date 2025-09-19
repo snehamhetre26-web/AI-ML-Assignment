@@ -1,18 +1,14 @@
-
 {
-    "teacherId": "T123",
-    "studentId": "S456",
-    "lessonId": "L789"
+  "teacherId": "T123",
+  "studentId": "S456",
+  "lessonId": "L789"
 }
 
-
 {
-    "assignmentId": "A001",
-    "status": "assigned",
-    "message": "Lesson L789 assigned to student S456 successfully."
+  "assignmentId": "A001",
+  "status": "assigned",
+  "message": "Lesson L789 assigned to student S456 successfully."
 }
-
-
 
 [
   {
@@ -23,18 +19,15 @@
   }
 ]
 
-
 {
   "completedAt": "2025-09-19T10:30:00Z"
 }
-
 
 {
   "assignmentId": "A001",
   "status": "completed",
   "message": "Assignment marked as complete."
 }
-
 
 [
   {
@@ -48,3 +41,4 @@
     "status": "incomplete"
   }
 ]
+
