@@ -21,6 +21,8 @@ Response (JSON):
 }
 
 
+
+
 2) View Incomplete Lessons
 
 GET /api/students/{studentId}/assignments?status=incomplete
@@ -35,6 +37,8 @@ Response (JSON):
     "status": "incomplete"
   }
 ]
+
+
 
 
 3) Mark Lesson as Complete
@@ -54,6 +58,8 @@ Response (JSON):
   "status": "completed",
   "message": "Assignment marked as complete."
 }
+
+
 
 
 4) Teacher Views Completion Status
