@@ -1,4 +1,4 @@
-Q1 — REST API Endpoints.md
+Q1 — REST API Endpoints
 
 1) Assign Lesson
 
@@ -75,3 +75,4 @@ Response (JSON):
   }
 
 ]
+
