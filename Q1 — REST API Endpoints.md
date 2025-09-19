@@ -21,7 +21,7 @@ Response (JSON):
 }
 
 
-2)View Incomplete Lessons
+2) View Incomplete Lessons
 
 Method: GET
 
@@ -77,6 +77,7 @@ Response (JSON):
   }
 
 ]
+
 
 
 
