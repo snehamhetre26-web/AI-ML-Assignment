@@ -28,7 +28,6 @@
   "completedAt": "2025-09-19T10:30:00Z"
 }
 
-Response (JSON):
 
 {
   "assignmentId": "A001",
