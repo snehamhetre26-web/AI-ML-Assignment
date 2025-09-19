@@ -21,7 +21,9 @@ Response (JSON):
 }
 
 
-2) View Incomplete Lessons
+2)View Incomplete Lessons
+
+Method: GET
 
 GET /api/students/{studentId}/assignments?status=incomplete
 
@@ -75,5 +77,6 @@ Response (JSON):
   }
 
 ]
+
 
 
