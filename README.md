@@ -1,10 +1,3 @@
-Q1 — REST API Endpoints
-
-1) Assign Lesson
-
-POST /api/assignments
-
-Request (JSON):
 
 {
     "teacherId": "T123",
@@ -12,7 +5,6 @@ Request (JSON):
     "lessonId": "L789"
 }
 
-Response (JSON):
 
 {
     "assignmentId": "A001",
@@ -21,11 +13,6 @@ Response (JSON):
 }
 
 
-2) View Incomplete Lessons
-
-GET /api/students/{studentId}/assignments?status=incomplete
-
-Response (JSON):
 
 [
   {
@@ -36,12 +23,6 @@ Response (JSON):
   }
 ]
 
-
-3) Mark Lesson as Complete
-
-PUT /api/assignments/{assignmentId}/complete
-
-Request (JSON):
 
 {
   "completedAt": "2025-09-19T10:30:00Z"
@@ -55,12 +36,6 @@ Response (JSON):
   "message": "Assignment marked as complete."
 }
 
-
-4) Teacher Views Completion Status
-
-GET /api/teachers/{teacherId}/assignments/status
-
-Response (JSON):
 
 [
   {
