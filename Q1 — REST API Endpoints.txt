@@ -1,4 +1,4 @@
-Q1 — REST API Endpoints
+Q1 — REST API Endpoints.md
 
 1) Assign Lesson
 
@@ -73,4 +73,5 @@ Response (JSON):
     "lessonId": "L790",
     "status": "incomplete"
   }
+
 ]
